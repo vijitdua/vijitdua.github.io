@@ -1,0 +1,57 @@
+<svg
+  width="256"
+  height="256"
+  viewBox="0 0 256 256"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Lovi mascot — neutral"
+>
+  <defs>
+    <linearGradient
+      id="loviHeart"
+      x1="64"
+      y1="52"
+      x2="190"
+      y2="182"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0%" stop-color="#FF8FA3" />
+      <stop offset="100%" stop-color="#FF5D7A" />
+    </linearGradient>
+  </defs>
+
+  <!-- centered zoom -->
+  <g transform="translate(128 118) scale(1.54) translate(-128 -118)">
+    <!-- body -->
+    <path
+      d="M128 184
+         C118 176, 108 168, 98 160
+         C70 138, 52 122, 52 96
+         C52 70, 70 52, 98 52
+         C114 52, 123 60, 128 72
+         C133 60, 142 52, 158 52
+         C186 52, 204 70, 204 96
+         C204 122, 186 138, 158 160
+         C148 168, 138 176, 128 184Z"
+      fill="url(#loviHeart)"
+      stroke="#243042"
+      stroke-width="10"
+      stroke-linejoin="round"
+    />
+
+    <!-- blush -->
+    <ellipse cx="92" cy="122" rx="10" ry="6" fill="#FFB3C1" opacity="0.9" />
+    <ellipse cx="164" cy="122" rx="10" ry="6" fill="#FFB3C1" opacity="0.9" />
+
+    <!-- neutral face -->
+    <circle cx="104" cy="108" r="6" fill="#243042" />
+    <circle cx="152" cy="108" r="6" fill="#243042" />
+    <path
+      d="M116 136 Q128 144 140 136"
+      fill="none"
+      stroke="#243042"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
